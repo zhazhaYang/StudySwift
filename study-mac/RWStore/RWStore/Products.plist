@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Audience</key>
+		<string>This book is for intermediate iOS developers who already know the basics of iOS and Swift development but want to learn the new APIs introduced in iOS 10.
+
+If you are new to Swift, we suggest you read the Swift Apprentice, which takes you on a comprehensive tour through the Swift language, even if you are a complete beginner.
+
+If you are new to iOS, we suggest you read the iOS Apprentice. That will give you a solid foundation of building iOS apps using Swift from the ground up.</string>
+		<key>Imagename</key>
+		<string>ios10</string>
+		<key>Description</key>
+		<string>Learn the new iOS 10 APIs with Swift 3.
+
+Covers the new features for developers in Xcode 8 and iOS 10, such as Message Apps, SiriKit, and Memory Debugging.</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>iOS 10 by Tutorials</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>This is a book for complete beginners to Apple’s brand new programming language — Swift 3.
+
+Everything can be done in a playground, so you can stay focused on the core Swift 3 language concepts like classes, protocols, and generics.
+
+This is a sister book to the iOS Apprentice; the iOS Apprentice focuses on making apps, while Swift Apprentice focuses on the Swift 3 language itself.</string>
+		<key>Imagename</key>
+		<string>swift_apprentice</string>
+		<key>Description</key>
+		<string>Beginning programming with Swift 3.
+
+This is a book for complete beginners to Apple’s brand new programming language — Swift 3.</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>Swift Apprentice</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>In this book, you’ll create 4 complete games from scratch:
+
+A twin-stick shooter
+A first-person shooter
+A tower defense game (with VR support!)
+A 2D platfomer
+By the end of this book, you’ll be ready to make your own games for Windows, macOS, iOS, and more!
+
+This book is for complete beginners to Unity, or for those who’d like to bring their Unity skills to a professional level. The book assumes you have some prior programming experience (in a language of your choice).
+
+If you are a complete beginner programming, we recommend you learn some basic programming skills first. A great way to do that is to watch our free Beginning C# with Unity series, which will get you familiar with programming in the context of Unity.
+
+The games in the book are made with C#. If you have prior programming experience but are new to C#, don’t worry – the book includes an appendix to give you a crash course on C# syntax.</string>
+		<key>Imagename</key>
+		<string>unity</string>
+		<key>Description</key>
+		<string>Learn how to make games in Unity: a professional game engine used to create games like City Skylines, Hearthstone, the Long Dark, and more.
+
+In this book, you’ll create 4 complete games from scratch.</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>Unity Games by Tutorials</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>The iOS Apprentice is a series of epic-length tutorials for beginners where you’ll learn how to build 4 complete apps from scratch.
+
+Each new app will be a little more advanced than the one before, and together they cover everything you need to know to make your own apps. By the end of the series you’ll be experienced enough to turn your ideas into real apps that you can sell on the App Store.
+
+These tutorials have easy to follow step-by-step instructions, and consist of more than 900 pages and 500 illustrations! You also get full source code, image files, and other resources you can re-use for your own projects.
+
+If you’re new to iOS and Swift 3, or to programming in general, learning how to write an app can seem incredibly overwhelming.
+
+That’s why you need a guide that:
+
+Shows you how to write an app step-by-step
+With tons of illustrations and screenshots to make everything clear
+In a fun and easygoing manner!
+We’ll start at the very beginning. The first tutorial assumes absolutely zero programming knowledge but still shows you how to build an entire game from scratch.
+
+The iOS Apprentice series doesn’t cover every single feature of iOS – it just focuses on the absolutely essential ones that you need to know.
+
+Instead of just covering a list of features, the iOS Apprentice series does something much more important: it explains how all the different building blocks fit together and what is involved in building real apps.
+
+You’re not going to create quick example programs that demonstrate how to accomplish a single feature. Instead, you’ll develop complete, fully-formed apps that are good enough to submit to the App Store!</string>
+		<key>Imagename</key>
+		<string>ios_apprentice</string>
+		<key>Description</key>
+		<string>Learn how to make iPhone and iPad apps from the ground up, with a series of epic-length tutorials for beginners!</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>iOS Apprentice</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>Through a series of mini-games and challenges, you will go from beginner to advanced and learn everything you need to make your own 3D game!
+
+This book is for beginner to advanced iOS developers. Whether you are a complete beginner to making iOS games, or an advanced iOS developer looking to learn about SceneKit, you will learn a lot from this book!
+</string>
+		<key>Imagename</key>
+		<string>scene_kit</string>
+		<key>Description</key>
+		<string>Learn how to make 3D games in Swift, using Apple’s built-in 3D game framework, SceneKit.</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>3D Apple Games by Tutorials</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>This book is for intermediate iOS developers who already know the basics of iOS and Swift 3 development but want to learn how to use Core Data to save data in their apps.
+
+Start with with the basics like setting up your own Core Data Stack all the way to advanced topics like syncing with iCloud, migration, performance, multithreading, and more!</string>
+		<key>Imagename</key>
+		<string>core_data</string>
+		<key>Description</key>
+		<string>Take control of your data in iOS apps using Core Data, Apple’s powerful object graph and persistence framework.</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>Core Data by Tutorials</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>This book is for iOS developers who already know the basics of iOS and Swift 3, and want to dive deep into animations.
+
+Start with basic view animations and move all the way to layer animations, animating constraints, view controller transitions, and more!</string>
+		<key>Imagename</key>
+		<string>animations</string>
+		<key>Description</key>
+		<string>Learn how to make iOS Animations in Swift 3 through a series of hands-on tutorials and challenges.</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>iOS Animations by Tutorials</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>In this book, you will make 6 complete and polished mini-games, from an action game to a puzzle game to a classic platformer!
+
+This book is for beginner to advanced iOS developers. Whether you are a complete beginner to making iOS games, or an advanced iOS developer looking to learn about SpriteKit, you will learn a lot from this book!
+
+This book does require some basic knowledge of Swift.</string>
+		<key>Imagename</key>
+		<string>2d_games</string>
+		<key>Description</key>
+		<string>Learn how to make iOS, tvOS, macOS and watchOS games using Swift 3 and SpriteKit.</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>2D Apple Games by Tutorials</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>This book is for intermediate iOS developers who already know the basics of iOS and Swift development but want to learn how to make Apple Watch apps for watchOS 3.
+
+If you are new to Swift 3, we suggest you read the Swift Apprentice, which takes you on a comprehensive tour through the Swift language with beginners in mind.
+
+If you are new to iOS, we suggest you read the iOS Apprentice. That will give you a solid foundation of building iOS apps using Swift 3 from the ground up.</string>
+		<key>Imagename</key>
+		<string>watchos</string>
+		<key>Description</key>
+		<string>Learn all about the WatchKit framework, snapshots, notifications, complications, and much, much more!</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>watchOS by Tutorials</string>
+	</dict>
+	<dict>
+		<key>Audience</key>
+		<string>This book is for complete beginners to tvOS development. No prior iOS or web development knowledge is necessary, however the book does assume at least a rudimentary knowledge of Swift.
+
+This book teaches you how to make tvOS apps in two different ways: via the traditional method using UIKit, and via the new Client-Server method using TVML.
+
+If you are new to Swift 3, we suggest you read the Swift Apprentice, which takes you on a comprehensive tour through the Swift language with beginners in mind.
+
+It’s been a little under a year since we released the first edition of tvOS Apprentice, and every single chapter in this book has been updated to Swift 3 to ensure it works flawlessly with Xcode 8 and tvOS 10.
+
+A cover-to-cover update of all chapters, sample projects, and final projects to Swift 3.
+A new chapter on PhotoKit (introduced in tvOS 10) to show great Photo Library integrations.
+A new chapter on Multipeer Connectivity (also introduced in tvOS 10) to show how tvOS and iOS apps can better communicate with one another.
+Inclusion of Dark Mode APIs in the UI chapters to show how your interface can better display in low light interfaces.
+Updated all chapters to be compatible with tvOS 10, including new APIs where relevant.
+Updated all chapters to be compatible with the Xcode 8.
+</string>
+		<key>Imagename</key>
+		<string>tvos</string>
+		<key>Description</key>
+		<string>Learn how to make tvOS apps from the ground up, with a series of tutorials for complete beginners!</string>
+		<key>Price</key>
+		<real>54.99</real>
+		<key>Name</key>
+		<string>tvOS Apprentice</string>
+	</dict>
+</array>
+</plist>

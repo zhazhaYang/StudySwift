@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ACD-hU-7Fx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="GNA-m5-amb">
+            <objects>
+                <viewController id="ACD-hU-7Fx" customClass="viewController" customModule="StudyPlayVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b5u-HA-Ms7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YWf-Of-Omz" userLabel="Video Table View">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="233" id="QIT-9m-fZy" userLabel="VideoCell" customClass="VideoCell" customModule="StudyPlayVideo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="233"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QIT-9m-fZy" id="1zn-vB-UeA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="232.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot01" translatesAutoresizingMaskIntoConstraints="NO" id="IEo-7E-Pcm" userLabel="Video Screenshot">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="220" id="QOz-UQ-TVQ"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Emoji Among Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2VS-AG-YYC" userLabel="Video Title Label">
+                                                    <rect key="frame" x="112" y="147" width="150" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="31" id="dRe-JM-91F"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtube - 06:32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhi-x1-gso" userLabel="Video Source Label">
+                                                    <rect key="frame" x="131" y="146" width="100" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAF-EX-xuu">
+                                                    <rect key="frame" x="81" y="52" width="200" height="100"/>
+                                                    <state key="normal" image="playButton"/>
+                                                    <connections>
+                                                        <action selector="playVideoButtonDidTouch:" destination="ACD-hU-7Fx" eventType="touchUpInside" id="oGa-ln-EAh"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="IEo-7E-Pcm" firstAttribute="centerX" secondItem="1zn-vB-UeA" secondAttribute="centerX" id="GFa-6i-ezO"/>
+                                                <constraint firstItem="Zhi-x1-gso" firstAttribute="top" secondItem="JAF-EX-xuu" secondAttribute="bottom" constant="34" id="GmM-yF-AOA"/>
+                                                <constraint firstItem="IEo-7E-Pcm" firstAttribute="top" secondItem="1zn-vB-UeA" secondAttribute="top" id="Iga-e7-Hqn"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="JAF-EX-xuu" secondAttribute="trailing" constant="78" id="OAg-zQ-bus"/>
+                                                <constraint firstItem="JAF-EX-xuu" firstAttribute="top" secondItem="1zn-vB-UeA" secondAttribute="topMargin" constant="41" id="QFD-jX-flD"/>
+                                                <constraint firstItem="IEo-7E-Pcm" firstAttribute="leading" secondItem="1zn-vB-UeA" secondAttribute="leading" id="QST-zx-9Kc"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Zhi-x1-gso" secondAttribute="bottom" constant="20" id="XNH-dm-drO"/>
+                                                <constraint firstItem="2VS-AG-YYC" firstAttribute="leading" secondItem="1zn-vB-UeA" secondAttribute="leadingMargin" constant="96" id="YhY-rs-BSj"/>
+                                                <constraint firstItem="Zhi-x1-gso" firstAttribute="top" secondItem="2VS-AG-YYC" secondAttribute="bottom" constant="8" symbolic="YES" id="cBX-2a-QpV"/>
+                                                <constraint firstItem="JAF-EX-xuu" firstAttribute="centerX" secondItem="Zhi-x1-gso" secondAttribute="centerX" id="hBl-PN-IgG"/>
+                                                <constraint firstItem="JAF-EX-xuu" firstAttribute="leading" secondItem="1zn-vB-UeA" secondAttribute="leadingMargin" constant="65" id="ja3-UE-cKC"/>
+                                                <constraint firstItem="IEo-7E-Pcm" firstAttribute="centerY" secondItem="1zn-vB-UeA" secondAttribute="centerY" id="o8b-Yg-4Eg"/>
+                                                <constraint firstItem="IEo-7E-Pcm" firstAttribute="centerX" secondItem="2VS-AG-YYC" secondAttribute="centerX" id="xID-d0-NYa"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoScreenshot" destination="IEo-7E-Pcm" id="Awv-Zj-pn4"/>
+                                            <outlet property="videoSourceLabel" destination="Zhi-x1-gso" id="bM7-Mc-b4u"/>
+                                            <outlet property="videoTitleLabel" destination="2VS-AG-YYC" id="AGG-yS-XWi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YWf-Of-Omz" firstAttribute="top" secondItem="b5u-HA-Ms7" secondAttribute="top" id="5SN-xq-n9m"/>
+                            <constraint firstItem="YWf-Of-Omz" firstAttribute="leading" secondItem="b5u-HA-Ms7" secondAttribute="leading" id="Azm-C7-QqN"/>
+                            <constraint firstItem="YWf-Of-Omz" firstAttribute="bottom" secondItem="JHJ-cZ-Sfn" secondAttribute="bottom" id="Ik8-gH-csX"/>
+                            <constraint firstAttribute="trailing" secondItem="YWf-Of-Omz" secondAttribute="trailing" id="nLf-ZU-2fR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JHJ-cZ-Sfn"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoTableView" destination="YWf-Of-Omz" id="Lar-Is-iY8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3N7-04-JXD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2383" y="-19"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screenshot01" width="375" height="220"/>
+        <image name="playButton" width="60" height="60"/>
+    </resources>
+</document>
